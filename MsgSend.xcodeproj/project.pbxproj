@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		041759BC8AEEF334559B3109 /* Pods_MsgSend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E6BA1214B14B5DCA231E8E9 /* Pods_MsgSend.framework */; };
 		4F92C2B123516AD600F0170D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F92C2B023516AD600F0170D /* AppDelegate.m */; };
 		4F92C2B423516AD600F0170D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F92C2B323516AD600F0170D /* SceneDelegate.m */; };
 		4F92C2B723516AD600F0170D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F92C2B623516AD600F0170D /* ViewController.m */; };
@@ -14,9 +15,12 @@
 		4F92C2BC23516AD800F0170D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F92C2BB23516AD800F0170D /* Assets.xcassets */; };
 		4F92C2BF23516AD800F0170D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F92C2BD23516AD800F0170D /* LaunchScreen.storyboard */; };
 		4F92C2C223516AD800F0170D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F92C2C123516AD800F0170D /* main.m */; };
+		4F92C2CA2351813900F0170D /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F92C2C92351813900F0170D /* Man.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B723791013EEE6FAB3766C9 /* Pods-MsgSend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MsgSend.release.xcconfig"; path = "Target Support Files/Pods-MsgSend/Pods-MsgSend.release.xcconfig"; sourceTree = "<group>"; };
+		4120475905C6337C0C11D274 /* Pods-MsgSend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MsgSend.debug.xcconfig"; path = "Target Support Files/Pods-MsgSend/Pods-MsgSend.debug.xcconfig"; sourceTree = "<group>"; };
 		4F92C2AC23516AD600F0170D /* MsgSend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MsgSend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F92C2AF23516AD600F0170D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4F92C2B023516AD600F0170D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +33,9 @@
 		4F92C2BE23516AD800F0170D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F92C2C023516AD800F0170D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F92C2C123516AD800F0170D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F92C2C82351813900F0170D /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		4F92C2C92351813900F0170D /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		6E6BA1214B14B5DCA231E8E9 /* Pods_MsgSend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MsgSend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041759BC8AEEF334559B3109 /* Pods_MsgSend.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +55,8 @@
 			children = (
 				4F92C2AE23516AD600F0170D /* MsgSend */,
 				4F92C2AD23516AD600F0170D /* Products */,
+				7B8CB0E59F765299F7A00847 /* Pods */,
+				C3DE6B3448F5A2E4DA08DD7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,8 +82,27 @@
 				4F92C2BD23516AD800F0170D /* LaunchScreen.storyboard */,
 				4F92C2C023516AD800F0170D /* Info.plist */,
 				4F92C2C123516AD800F0170D /* main.m */,
+				4F92C2C82351813900F0170D /* Man.h */,
+				4F92C2C92351813900F0170D /* Man.m */,
 			);
 			path = MsgSend;
+			sourceTree = "<group>";
+		};
+		7B8CB0E59F765299F7A00847 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4120475905C6337C0C11D274 /* Pods-MsgSend.debug.xcconfig */,
+				1B723791013EEE6FAB3766C9 /* Pods-MsgSend.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C3DE6B3448F5A2E4DA08DD7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E6BA1214B14B5DCA231E8E9 /* Pods_MsgSend.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F92C2C523516AD800F0170D /* Build configuration list for PBXNativeTarget "MsgSend" */;
 			buildPhases = (
+				71115A6D08376F86E64ED0DE /* [CP] Check Pods Manifest.lock */,
 				4F92C2A823516AD600F0170D /* Sources */,
 				4F92C2A923516AD600F0170D /* Frameworks */,
 				4F92C2AA23516AD600F0170D /* Resources */,
+				B6103C0AD0F537C1B1C543CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,6 +172,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71115A6D08376F86E64ED0DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MsgSend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6103C0AD0F537C1B1C543CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MsgSend/Pods-MsgSend-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MsgSend/Pods-MsgSend-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MsgSend/Pods-MsgSend-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F92C2A823516AD600F0170D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,6 +221,7 @@
 			files = (
 				4F92C2B723516AD600F0170D /* ViewController.m in Sources */,
 				4F92C2B123516AD600F0170D /* AppDelegate.m in Sources */,
+				4F92C2CA2351813900F0170D /* Man.m in Sources */,
 				4F92C2C223516AD800F0170D /* main.m in Sources */,
 				4F92C2B423516AD600F0170D /* SceneDelegate.m in Sources */,
 			);
@@ -287,6 +361,7 @@
 		};
 		4F92C2C623516AD800F0170D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4120475905C6337C0C11D274 /* Pods-MsgSend.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +379,7 @@
 		};
 		4F92C2C723516AD800F0170D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B723791013EEE6FAB3766C9 /* Pods-MsgSend.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

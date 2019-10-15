@@ -1,0 +1,6 @@
+framework module Pods_MsgSend {
+  umbrella header "Pods-MsgSend-umbrella.h"
+
+  export *
+  module * { export * }
+}
